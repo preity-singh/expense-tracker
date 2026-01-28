@@ -2,7 +2,7 @@
 
 A comprehensive, modern expense tracking web application built with Next.js 14, TypeScript, and Tailwind CSS. This application helps users manage their personal finances with intuitive expense tracking, categorization, analytics, and visual insights.
 
-## ✨ Features
+## Features
 
 ### Core Functionality
 - **Add Expenses**: Easy-to-use form with validation for adding new expenses
@@ -27,7 +27,7 @@ A comprehensive, modern expense tracking web application built with Next.js 14, 
 - **Form Validation**: Comprehensive input validation with helpful error messages
 - **Visual Feedback**: Loading states, hover effects, and smooth transitions
 
-## 🚀 Getting Started
+## Set up
 
 ### Prerequisites
 - Node.js 18+ installed on your machine
@@ -58,7 +58,7 @@ npm run build
 npm start
 ```
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend Framework
 - **Next.js 14**: React framework with App Router
@@ -79,7 +79,7 @@ npm start
 - **localStorage**: Client-side data persistence
 - **date-fns**: Date manipulation and formatting
 
-## 📱 Application Structure
+## Application Structure
 
 ```
 src/
@@ -100,7 +100,7 @@ src/
 └── types/                # TypeScript type definitions
 ```
 
-## 🎯 Key Components
+## Key Components
 
 ### Dashboard
 - **SummaryCards**: Key financial metrics
@@ -118,7 +118,7 @@ src/
 - **Header**: Main navigation with responsive mobile menu
 - **Layout**: Consistent page layout wrapper
 
-## 💾 Data Management
+## Data Management
 
 ### Expense Data Structure
 ```typescript
@@ -146,7 +146,7 @@ interface Expense {
 - Automatic save/load on application start
 - Data persists between browser sessions
 
-## 🔍 Features Guide
+## Features Guide
 
 ### Adding Expenses
 1. Click "Add Expense" in navigation
@@ -172,7 +172,7 @@ interface Expense {
 3. Downloads file with all expense data
 4. Includes date, description, category, and amount
 
-## 🎨 Design Principles
+## Design Principles
 
 - **Mobile-First**: Responsive design that works on all devices
 - **Accessibility**: Semantic HTML and keyboard navigation
@@ -180,7 +180,7 @@ interface Expense {
 - **Usability**: Intuitive interface with clear visual hierarchy
 - **Consistency**: Unified color scheme and typography
 
-## 🔧 Customization
+## Customization
 
 ### Adding New Categories
 Update the `ExpenseCategory` type in `src/types/expense.ts`:
@@ -206,7 +206,7 @@ To use a real database instead of localStorage:
 2. Update context methods in `src/contexts/ExpenseContext.tsx`
 3. Add API routes for server communication
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -225,7 +225,7 @@ To use a real database instead of localStorage:
 - Check browser console for errors
 - Verify Recharts dependency is installed
 
-## 🤝 Testing Instructions
+## Testing Instructions
 
 ### Manual Testing Steps
 
@@ -265,10 +265,10 @@ To use a real database instead of localStorage:
    - Verify data persists
    - Open new browser tab - data should be there
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ using Next.js, TypeScript, and Tailwind CSS
+Built with using Next.js, TypeScript, and Tailwind CSS
